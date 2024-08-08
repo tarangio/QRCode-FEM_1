@@ -1,0 +1,132 @@
+html { 
+    font-size:62.5%;
+    box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit;}
+
+body{
+    
+    font-family: 'Outfit',sans-serif;
+    background-color: #D5E1EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0 auto;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.image-qr-code{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.bold{
+
+    font-weight: bolder;
+    font-size: 2.2rem;
+    line-height: 120%;
+
+}
+
+.disabled{
+
+    font-size: 1.5rem;
+    color: gray;
+    letter-spacing: 0.3px;
+
+}
+
+.container p{
+
+    margin: 3rem 1.6rem;
+}
+
+@media (min-width:500px){
+
+    .container{
+
+        width: 70%;
+    }
+    
+
+}
+
+
+@media (min-width:740px){
+
+    .container{
+
+        width: 30%;
+    }
+    
+
+}
+
+@media (min-width:770px){
+
+    .container{
+
+        width: 50%;
+    }
+    
+
+}
+
+@media (min-width:900px){
+
+    .container{
+
+        width: 40%;
+    }
+    
+
+}
+
+@media (min-width:1080px){
+
+    .container{
+
+        width: 30%;
+    }
+    
+
+}
+
+@media (min-width:1300px){
+
+    .container{
+
+        width: 25%;
+    }
+    
+
+}
+
+@media (min-width:1400px){
+
+    .container{
+
+        width: 20%;
+    }
+    
+
+}
+
